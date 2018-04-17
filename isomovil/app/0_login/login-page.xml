@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageload">
+<ScrollView>
+   <ActionBar title="test">
+    <StackLayout orientation="horizontal"
+        ios:horizontalAlignment="center"
+        android:horizontalAlignment="left">
+        <!--<Image src="res://nativescript_logo" class="action-image"></Image>-->
+        <Label text="Isofacil"  class="action-label"></Label>
+    </StackLayout>
+    </ActionBar>
+    <StackLayout orientation="vertical" VerticalAlignment="center" style="padding-top: 150px;" class="imagen-fondo">
+        <Image src="~/images/logoisofacil.png" style="width: 400px;"></Image>
+        <Label text="{{ texttitulo }}" style="text-align: center; width: 400px; font-weight: bold;"/>
+        <TextField hint="Usuario" autocorrect="false"  autocapitalizationType="none" style="width: 400px;"/>
+        <TextField hint="Contraseña" secure="true" style="width: 400px;"/>
+        <Button text="{{ textbtnlogin }}" class="link" tap="{{btnenviar}}" style="width: 300px;"/>
+    </StackLayout>
+
+</ScrollView>
+</Page>
