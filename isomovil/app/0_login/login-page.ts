@@ -37,6 +37,7 @@ import { EventData } from "data/observable";
 import { Page } from "ui/page";
 import { LoginViewModel } from "./login-view-model";
 
+
 let pageload=(args: EventData)=>{
     let page=<Page>args.object;
 

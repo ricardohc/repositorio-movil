@@ -10,6 +10,9 @@ export class LoginViewModel extends Observable {
     private _texttitulo:String;
     textbtnlogin:String;
 
+    private _usuario:String;
+    private _password:String;
+
     constructor(page:Page) {
         super();
         this._texttitulo="INGRESA TU CUENTA";
@@ -17,17 +20,17 @@ export class LoginViewModel extends Observable {
         this.textbtnlogin="INGRESAR";
     }
 
-    public get texttitulo():String{
-        return this._texttitulo;
-    } 
-    public set texttitulo(value: String){
-        this._texttitulo=value;
-    } 
-
     btnenviar(args: EventData){
-        
+      
         console.log("antes de enviar a la siguiente pantalla");
-        topmost().navigate("./1_home/home-page");
+
+        console.log(this.usuario+" "+this._password);
+        if(this._usuario=="admin" && this._password=="123"){
+            topmost().navigate("./1_home/home-page");
+        }else{
+            alert("Datos ingresados no es valido");
+        }
+       
         /*http.request({ url: "190.232.7.26:8080/WebServiceRESTFull/rest/service/json", method: "GET" }).then(function (response) {
             //// Argument (response) is HttpResponse!
             //// Content property of the response is HttpContent!
@@ -46,4 +49,25 @@ export class LoginViewModel extends Observable {
         console.log("aAA");
     }
   */  
+
+    public get texttitulo():String{
+        return this._texttitulo;
+    } 
+    public set texttitulo(value: String){
+        this._texttitulo=value;
+    } 
+
+    public get usuario():String{
+        return this._usuario;
+    } 
+    public set usuario(value: String){
+        this._usuario=value;
+    }
+    
+    public get password():String{
+        return this._password;
+    } 
+    public set password(value: String){
+        this._password=value;
+    }
 }

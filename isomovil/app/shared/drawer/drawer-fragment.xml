@@ -5,8 +5,8 @@ Feel free to customize layouts and components to change how your app drawer look
 <GridLayout rows="auto, *" class="sidedrawer sidedrawer-left" loaded="onLoaded">
     <StackLayout class="sidedrawer-header">
         <Label class="sidedrawer-header-image fa" text="&#xf2bd;" />
-        <Label class="sidedrawer-header-brand" text="Usuario" />
-        <Label class="footnote" text="ejemplo@mail.com" />
+        <Label class="sidedrawer-header-brand" text="Admin" />
+        <Label class="footnote" text="admin@isofacil.com" />
     </StackLayout>
 
     <ScrollView row="1">
@@ -56,12 +56,19 @@ Feel free to customize layouts and components to change how your app drawer look
             </GridLayout>
 
             <!--<StackLayout class="hr-light"></StackLayout>
-
             <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
                 route="8_settings/settings-page" tap="onNavigationItemTap">
                 <Label row="0" col="0" text="&#xf013;" class="fa" />
                 <Label row="0" col="1" text="CONFIGURACION" class="p-r-10" />
-            </GridLayout>-->
+            </GridLayout>
+            -->
+            <StackLayout class="hr-light"></StackLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
+                route="8_settings/settings-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf011;" class="fa" />
+                <Label row="0" col="1" text="SALIR" class="p-r-10" />
+            </GridLayout>
         </StackLayout>
     </ScrollView>
 </GridLayout>

@@ -11,9 +11,20 @@
     <StackLayout orientation="vertical" VerticalAlignment="center" style="padding-top: 150px;" class="imagen-fondo">
         <Image src="~/images/logoisofacil.png" style="width: 400px;"></Image>
         <Label text="{{ texttitulo }}" style="text-align: center; width: 400px; font-weight: bold;"/>
-        <TextField hint="Usuario" autocorrect="false"  autocapitalizationType="none" style="width: 400px;"/>
-        <TextField hint="Contraseña" secure="true" style="width: 400px;"/>
+        <TextField hint="Usuario" text="{{usuario}}" autocorrect="false" autocapitalizationType="none" style="width: 400px;"/>
+        <TextField hint="Contraseña" text="{{password}}" secure="true" style="width: 400px;"/>
         <Button text="{{ textbtnlogin }}" class="link" tap="{{btnenviar}}" style="width: 300px;"/>
+        <TextField hint="Enter date" 
+           [text]='birthDate | date:"MM/dd/yy"' 
+           secure="false"
+           keyboardType="datetime"
+           returnKeyType="done" 
+           (returnPress)="onReturnPress($event)"
+           autocorrect="false"
+           maxLength="10"
+           (focus)="onFocus($event)" 
+           (blur)="onBlur($event)" 
+           class="input input-border"></TextField>
     </StackLayout>
 
 </ScrollView>
