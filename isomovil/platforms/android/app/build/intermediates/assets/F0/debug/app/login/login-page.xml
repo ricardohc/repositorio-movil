@@ -1,0 +1,10 @@
+<Page loaded="cargado">
+ <StackLayout orientation="vertical">
+        <Image src="~/images/logoisofacil.png"></Image>
+
+        <TextField hint="Usuario" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField hint="Contraseña" secure="true" />
+
+        <Button text="Login" class="link"/>
+    </StackLayout>
+</Page>

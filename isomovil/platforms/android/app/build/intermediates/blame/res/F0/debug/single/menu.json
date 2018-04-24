@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\menu\\edit_details.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\0f908087dc331b01499ac396d7aac01814844413\\output\\res\\menu\\edit_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\menu\\send_feedback_activity_menu.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\0f908087dc331b01499ac396d7aac01814844413\\output\\res\\menu\\send_feedback_activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\menu\\view_feedback_items_activity_menu.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\0f908087dc331b01499ac396d7aac01814844413\\output\\res\\menu\\view_feedback_items_activity_menu.xml"
+    }
+]

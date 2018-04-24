@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\cabdefc85b0490c3ce5ed7a65f86518111a25726\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\cabdefc85b0490c3ce5ed7a65f86518111a25726\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_in_top.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\564e642a22a136e7240302e5a3fc5b347521232c\\output\\res\\anim\\drawer_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\cabdefc85b0490c3ce5ed7a65f86518111a25726\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\cabdefc85b0490c3ce5ed7a65f86518111a25726\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\drawer_slide_out_top.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\564e642a22a136e7240302e5a3fc5b347521232c\\output\\res\\anim\\drawer_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\USUARIO\\Desktop\\workmovil\\isomovil\\platforms\\android\\app\\build\\intermediates\\res\\merged\\F0\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\USUARIO\\.android\\build-cache\\de09c6a7f90b99cc4df73f638b3eb3eeb961dcc6\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]

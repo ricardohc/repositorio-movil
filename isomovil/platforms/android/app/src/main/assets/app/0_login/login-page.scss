@@ -1,0 +1,50 @@
+
+Page {
+    background-color: white;
+    font-size: 17;
+}
+TextField {
+    margin: 10;
+    padding: 10;
+}
+Image {
+    margin-top: 20;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 80;
+}
+Button {
+    margin: 10;
+    padding: 10;
+}
+
+.link{
+    background-color: #5cb85c; 
+    color: #fff;
+    border-color:#5cb85c;
+    border-width: 0;
+}
+
+
+/* From platform.android.css and From platform.ios.css*/
+.link:highlighted {
+    background-color: #449D45; 
+    color: #fff;
+    border-color:#398439;
+    border-width: 0;
+}
+
+
+.imagen-fondo{
+    /*content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;*/
+    background-image: url("~/images/portada.jpg") no-repeat;
+    //background-image: url(/wp-content/uploads/2010/11/tandem.jpg); 
+    /*width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;*/
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\USUARIO\.android\build-cache\56ba3cdf1f176ec4894dea3132555a41df4543c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Users\USUARIO\Desktop\workmovil\isomovil\platforms\android\app\build\intermediates\pre-dexed\F0\debug\classes_dbad63812b892f9a6b8985f9c62679ad1106f4d6.jar" />
+    </item>
+
+</items>

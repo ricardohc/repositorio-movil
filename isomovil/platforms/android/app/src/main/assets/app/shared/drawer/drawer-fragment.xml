@@ -1,0 +1,74 @@
+<!--
+The drawer custom component view is where you define what will be displayed in the app drawer.
+Feel free to customize layouts and components to change how your app drawer looks.
+-->
+<GridLayout rows="auto, *" class="sidedrawer sidedrawer-left" loaded="onLoaded">
+    <StackLayout class="sidedrawer-header">
+        <Label class="sidedrawer-header-image fa" text="&#xf2bd;" />
+        <Label class="sidedrawer-header-brand" text="Admin" />
+        <Label class="footnote" text="admin@isofacil.com" />
+    </StackLayout>
+
+    <ScrollView row="1">
+        <StackLayout class="sidedrawer-content" row="1">
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'home_xml' ? ' selected': '') }}"
+                route="1_home/home-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf015;" class="fa" />
+                <Label row="0" col="1" text="HOME" class="p-r-10" />
+            </GridLayout>
+
+            <StackLayout class="hr-light"></StackLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'indicadores_xml' ? ' selected': '') }}"
+                route="2_indicadores/indicadores-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf0e4;" class="fa" />
+                <Label row="0" col="1" text="INDICADORES DE DESEMPEÑO" class="p-r-10" />
+            </GridLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'documentos_xml' ? ' selected': '') }}"
+                route="3_documentos/documentos-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf0f6;" class="fa" />
+                <Label row="0" col="1" text="GESTOR DE DOCUMENTOS" class="p-r-10" />
+            </GridLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'acciones_xml' ? ' selected': '') }}"
+                route="4_acciones/acciones-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf0e7;" class="fa" />
+                <Label row="0" col="1" text="GESTION DE ACCIONES" class="p-r-10" />
+            </GridLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'auditorias_xml' ? ' selected': '') }}"
+                route="5_auditorias/auditorias-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf046;" class="fa" />
+                <Label row="0" col="1" text="CONTROL DE AUDITORIA" class="p-r-10" />
+            </GridLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'proyectos_xml' ? ' selected': '') }}"
+                route="6_proyectos/proyectos-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf0b1;" class="fa" />
+                <Label row="0" col="1" text="GESTOR DE PROYECTOS" class="p-r-10" />
+            </GridLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'riesgos_xml' ? ' selected': '') }}"
+                route="7_riesgos/riesgos-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf071;" class="fa" />
+                <Label row="0" col="1" text="GESTOR DE RIESGOS" class="p-r-10" />
+            </GridLayout>
+
+            <!--<StackLayout class="hr-light"></StackLayout>
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
+                route="8_settings/settings-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf013;" class="fa" />
+                <Label row="0" col="1" text="CONFIGURACION" class="p-r-10" />
+            </GridLayout>
+            -->
+            <StackLayout class="hr-light"></StackLayout>
+
+            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
+                route="8_settings/settings-page" tap="onNavigationItemTap">
+                <Label row="0" col="0" text="&#xf011;" class="fa" />
+                <Label row="0" col="1" text="SALIR" class="p-r-10" />
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
