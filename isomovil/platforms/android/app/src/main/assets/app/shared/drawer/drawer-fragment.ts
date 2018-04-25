@@ -10,7 +10,7 @@ import { Page } from "ui/page";
 export function onLoaded(args: EventData): void {
     const component = <GridLayout>args.object;
     const componentTitle = component.get("selectedPage");
-
+    console.log(componentTitle);
     component.bindingContext = new DrawerViewModel(componentTitle);
 }
 
@@ -20,6 +20,19 @@ export function onLoaded(args: EventData): void {
 * based on the tapped navigationItem's route.
 *************************************************************/
 export function onNavigationItemTap(args: EventData): void {
+    const component = <GridLayout>args.object;
+    const componentRoute = component.get("route");
+
+    topmost().navigate({
+        moduleName: componentRoute,
+        transition: {
+            name: "fade"
+        }
+    });
+}
+
+
+export function onSalir(args: EventData): void {
     const component = <GridLayout>args.object;
     const componentRoute = component.get("route");
 

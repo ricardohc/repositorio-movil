@@ -15,5 +15,10 @@ export class DrawerViewModel extends Observable {
         super();
 
         this.selectedPage = selectedPage;
+
+        //ROLES Y PERMISOS DE PESTAÑAS
+        console.log("LOAD EJECUTADO ... " + selectedPage);
+        console.log(JSON.stringify(this));
+
     }
 }

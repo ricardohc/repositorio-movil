@@ -21,6 +21,10 @@ export class LoginViewModel extends Observable {
         this.textbtnlogin="INGRESAR";
         //oculta el actionbar
         page.actionBarHidden = true;
+
+        //inicializacion de las campos de login
+        this._usuario="DESTRADA";
+        this._password="Isofacil2018";
     }
 
     btnenviar(args: EventData){
@@ -41,7 +45,8 @@ export class LoginViewModel extends Observable {
         http.getJSON("http://132.148.16.211:8080/isofacil-webservice/ws/adm/login/"+this.usuario.toUpperCase()+"/"+this.password).then(function (r) {
             //// Argument (r) is JSON!
             console.log(JSON.stringify(r));
-            console.log()
+            console.log(r);
+            console.log(r);
             console.log("antes de enviar a la siguiente pantalla");
             var navegacion= {
                 moduleName: "./1_home/home-page",

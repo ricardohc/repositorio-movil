@@ -18,7 +18,7 @@
             tap="onDrawerButtonTap"
             ios.position="left">
         </ActionItem>
-        <Label class="action-bar-title" text="CONTROL DE AUDITORIA"></Label>
+        <Label class="action-bar-title" text="CONFIGURACION"></Label>
     </ActionBar>
 
     <!--

@@ -12,7 +12,7 @@ Feel free to customize layouts and components to change how your app drawer look
     <ScrollView row="1">
         <StackLayout class="sidedrawer-content" row="1">
             <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'home_xml' ? ' selected': '') }}"
-                route="1_home/home-page" tap="onNavigationItemTap">
+                route="1_home/home-page" tap="onNavigationItemTap" visibility="{{ showDetails ? 'visible' : 'collapsed' }}" >
                 <Label row="0" col="0" text="&#xf015;" class="fa" />
                 <Label row="0" col="1" text="HOME" class="p-r-10" />
             </GridLayout>
@@ -55,17 +55,16 @@ Feel free to customize layouts and components to change how your app drawer look
                 <Label row="0" col="1" text="GESTOR DE RIESGOS" class="p-r-10" />
             </GridLayout>
 
-            <!--<StackLayout class="hr-light"></StackLayout>
             <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
                 route="8_settings/settings-page" tap="onNavigationItemTap">
                 <Label row="0" col="0" text="&#xf013;" class="fa" />
                 <Label row="0" col="1" text="CONFIGURACION" class="p-r-10" />
             </GridLayout>
-            -->
+            
             <StackLayout class="hr-light"></StackLayout>
 
-            <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'setting_xml' ? ' selected': '') }}"
-                route="8_settings/settings-page" tap="onNavigationItemTap">
+            <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                route="0_login/login-page" tap="onSalir">
                 <Label row="0" col="0" text="&#xf011;" class="fa" />
                 <Label row="0" col="1" text="SALIR" class="p-r-10" />
             </GridLayout>

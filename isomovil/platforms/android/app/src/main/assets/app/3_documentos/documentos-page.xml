@@ -58,8 +58,16 @@
         -->
         <nsDrawer:RadSideDrawer.mainContent>
             <GridLayout class="page-content">
-                <Label class="page-icon fa" text="&#xf0f6;"></Label>
-                <Label class="page-placeholder" text="<!-- Contenido de la pagina -->"></Label>
+                <GridLayout columns="*, *" rows="*, *, *">
+                <Button col="0" row="0" text="0"/>
+                <Button col="1" row="0" text="1"/>
+                <Button col="0" row="1" text="2"/>
+                <Button col="1" row="1" text="3"/>
+                <Button col="0" row="2" text="4"/>
+                <Button col="1" row="2" text="5"/>
+            </GridLayout>
+               <!-- <Label class="page-icon fa" text="&#xf0f6;"></Label>
+                <Label class="page-placeholder" text="Contenido de la pagina" ></Label>-->
             </GridLayout>
         </nsDrawer:RadSideDrawer.mainContent>
     </nsDrawer:RadSideDrawer>
